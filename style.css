@@ -1,0 +1,658 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*! İndex Start */
+.container{
+    height: 100vh;
+    background-image: url(/resim/anasayfa2.jpg);
+    background-size: 100% 100%;   
+    text-align: center;
+    padding: 8px 10px;
+    border: 1px solid black;
+  
+    
+}
+.container .navbar{   
+    background-color: rgb(104, 46, 219);
+    height: 80px;
+    border-radius: 20px;  
+    position: sticky;     
+    top: 0;
+    flex-grow: 1;
+    
+  
+}
+.logo{
+    display: inline-block;
+    float: left;
+    
+
+}
+.navbar ul{
+    text-align: left;
+    margin-left: 30px;
+    
+}
+.logo img{
+    height: 80px;
+    border-radius: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 85px;
+    line-height: 80px; 
+    user-select: none;
+    margin-left: 30px;
+    
+}
+.navbar ul li a{
+text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+    padding: 8px 13px;
+    font-family: fantasy; 
+    border-radius: 15px;
+    
+        
+}
+.navbar ul li a.active{
+    background-color: #ff6e00;
+}
+
+.navbar ul li a:hover{
+    background-color: #ff6e00;
+    transition: 4s;
+}
+ 
+.search-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* transform: translateY(-50); */
+}
+
+.search-icon {
+    height: 45px;
+    width: 70px;
+}
+
+#search-bar {
+    width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.image{
+    display: inline-block;
+    margin: 30px ;
+    margin-top: 100px;
+
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    user-select: none;
+}
+.navbar{
+    animation: gradient;
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .navbar{
+    background: linear-gradient(270deg, blue, purple);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+
+  }
+  .ayak{
+    width: 100%;
+    height: 100%;
+    color: rgb(234, 0, 255);
+    background-color: rgb(255, 0, 242);
+  }
+  .tamam{
+    width: 50px;
+    height: 200px;
+  }
+  /*! İndex Bitiş  */
+  /*! cs1.6 için  */
+  .container2{
+    height: 100%;
+    background-image: url(resim/valve.jpg);
+    background-size: 100% 100%;   
+    text-align: left;
+    padding: 8px 10px;
+    
+}
+.container2 h1{
+    margin-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.container2 p{
+    margin-top: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.navbar2{
+  animation: gradient ;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.navbar2 {
+  background: linear-gradient(270deg, rgb(8, 7, 7), rgb(255, 0, 0));
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
+  border-radius: 20px;
+  animation-name: gradient ;
+    position: sticky;
+    top: 0;
+}
+
+  /*! cs1.6 için navbar özellikleri */
+
+  .container2 .navbar2{   
+    background-color: rgb(104, 46, 219);
+    height: 80px;
+    border-radius: 20px;
+  }
+
+  
+  .csfoto{
+    display: inline-block;
+    width: 50%;
+  }
+  .csfoto img{
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+  }
+  .csvideo{
+    width: 50%;
+    float: right;
+  }
+.csfoto , .csvideo h2{
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+
+
+
+/*! league of legends */
+.container3{
+    height: 100%;
+    background-image: url(resim/lolback1.png);
+    background-size: 100% 100%;   
+    text-align: left;
+    padding: 8px 10px;
+}
+.navbar3{
+  height: 80px;
+  border-radius: 20px;
+}
+.navbar3{
+  animation: gradient ;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.navbar3 {
+  background: linear-gradient(270deg, rgb(255, 60, 0), rgb(251, 255, 0) , rgb(206, 41, 90));
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
+  border-radius: 20px;
+  animation-name: gradient ;
+  position: sticky;
+  top: 0;
+}
+  .container3 h1{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(238, 255, 0);
+    font-family: sans-serif;
+}
+.container3 p{
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    width: 60%;
+}
+
+.lolfoto{
+    display: inline-block;
+    width: 50%;
+  }
+  .lolfoto img{
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+  }
+  .lolvideo{
+    width: 50%;
+    float: right;
+  }
+.lolfoto , .lolvideo h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+.lolwr{
+  font-family: monospace;
+  font-size: large;
+}
+/*! lol bitiş */
+/*! vice city kısmı */
+
+
+/*! vicecityiçin navbar özellikleri */
+
+.container4{
+  display: inline-block;
+  height: 100%;
+  background-image: url(resim/viceback.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 8px 10px;
+  /* background-repeat: no-repeat; */
+}
+
+.navbar4{
+  height: 80px;
+  border-radius: 20px;
+}
+.navbar4{
+  animation: gradient ;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.navbar4 {
+  background: linear-gradient(270deg, rgb(127, 111, 131), rgb(255, 0, 179) , rgb(255, 255, 255));
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
+  border-radius: 20px;
+  animation-name: gradient ;
+  position: sticky;
+  top: 0;
+
+}
+.container4 h1{
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(255, 0, 157);
+  font-family: sans-serif; 
+}
+.container4 p{
+  margin-top: 20px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.container4 h2{
+  color: white;
+}
+
+.vicefoto{
+  float: left;
+  width: 50%;
+}
+.vicevideo{
+  float: right;
+  width: 50%;
+} 
+
+.vicefoto img{
+  margin-top: 30px;
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+}
+.vicewr{
+font-family: monospace;
+font-size: large;
+}
+/*! vice city bitiş */
+
+/*! iletisim kısmı */
+
+/* yüzdelik eklenip tarihçe kısmına oyun cubuklarında en cok oynana en cok kazanan diye belirtildiği bir ekran */
+/* iletişim içinse adres yazıı mail adresi konum adresi ve logo */
+
+/* iletişim */
+.container5{
+  height: 200vh;
+  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 8px 10px;
+}
+.container5 .navbar5{
+  border-radius: 20px;
+}
+
+.container5{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.iletisim{
+  color: #ffffff;
+  background-color: #011627;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#contact{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.container5{
+  width: 99%;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact-area{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-left{
+  width: 40%;
+  padding: 3rem;
+}
+.cont-top{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ffffff;
+}
+
+.cont-element{
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.cont-element i{
+  color: #ffffff;
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: all 0.4s ease;
+}
+
+.cont-element:hover i{
+  background-color: #ffffff;
+  color: #011627;
+}
+
+.cont-element a{
+color: #ffffff;
+text-decoration: none;
+}
+
+.cont-bottom{
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cont-bottom a{
+  color: #ffffff;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.5rem ;
+  background-color: #181818;
+  border-radius: 50%;
+}
+.cont-bottom a:hover{
+  color: #181818;
+  background-color: #ffffff;
+}
+.cont-right{
+  width: 60%;
+  padding: 3rem;
+}
+.cont-right form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.cont-right form input, textarea , button{
+  width: 100%;
+  
+margin: 1rem 0;
+background-color: transparent;
+font-size: 1.2rem ;
+padding: 0.5 1rem;
+outline: none;
+border: 1px solid #ffffff;
+color: #ffffff;
+transition: all 0.5s ease;
+}
+.cont-right button{
+  width: 50%;
+  height: 50px;
+}
+.cont-right input{
+  padding: 10px;
+}
+.cont-right form button{
+  background-color:  #011627;
+  color: #011627;
+  cursor: pointer;
+}
+.cont-right form button:hover{
+  background-color: #011627;
+  color: #ffffff;
+}
+.cont-right form input:hover , textarea:hover{
+  color: #011627;
+  background-color: #ffffff;
+
+}
+.cont-right form input:focus , textarea:focus{
+  color: #011627;
+  background-color: #ffffff;
+}
+.navbar5{
+  
+  background-color: #0c518a;
+  height: 80px;
+  border-radius: 20px;  
+  position: sticky;     
+  top: 0;
+
+}
+.navbar5 ul{
+  text-align: left;
+  margin-left: 30px;
+}
+.navbar5 ul li{
+  list-style: none;
+  display: inline-block;
+  margin:0 85px;
+  line-height: 80px; 
+  user-select: none;
+  margin-left: 30px;
+  
+}
+.navbar5 ul li a{
+  text-decoration: none;
+      color: whitesmoke;
+      font-size: 17px;
+      padding: 8px 13px;
+      font-family: fantasy; 
+      border-radius: 15px;
+      
+          
+  }
+  .navbar5 ul li a.active{
+    background-color: #ff6e00;
+}
+
+.navbar5 ul li a:hover{
+    background-color: #ff6e00;
+    transition: 4s;
+}
+ 
+/*! iletişim bitiş */
+
+/*! tarihce baslangic */
+.iletisimH1{
+   margin-top: 15px;
+  text-align: center;
+   color: #9fb0c0; 
+  font-family: sans-serif; 
+}
+
+.csfoto{
+ 
+  flex-wrap: wrap;
+  gap: 1;
+}
+img{
+  flex-basis: 300px;
+  flex-grow: 1;
+}
+.csvideo{
+  flex-wrap: wrap;
+  gap: 1;
+}
+.asd{
+  flex-basis: 300px;
+  flex-grow: 1;
+}
+.lolfoto{
+  flex-wrap: wrap;
+  gap: 1
+}
+/*! Responsive kısmı  */
+@media screen and (max-width: 1075px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .navbar , .navbar2 , .navbar3 , .navbar4 , .navbar5 , li {
+    width: 100%;
+    position: inherit;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .cswr {
+    display: inline-flex;
+    float: right;
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 1075px) {
+  .lolwr {
+    display: inline-flex;
+    /* float: right; */
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lolh1 {
+    display: inline-flex;
+    /* float: right; */
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .vicewr {
+    display: inline-flex;
+    /* float: right; */
+    margin-left: 200px;
+  }
+}
+
+
+@media screen and (max-width: 1075px) {
+  .cont-left { 
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title { 
+    margin-left: 200px;
+  }
+}
+
+
+
+@media screen and (max-width: 545px) {
+  .csh1{
+   margin-left: 50px;
+  }
+ }
+ 
+ 
